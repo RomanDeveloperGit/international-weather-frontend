@@ -1,0 +1,13 @@
+.main {
+  display: grid;
+  min-height: 100vh;
+
+  padding: 20px;
+  grid-template-rows: min-content auto;
+
+  row-gap: 40px;
+}
+
+.main > div:first-child {
+  margin-left: auto;
+}

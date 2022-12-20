@@ -1,0 +1,12 @@
+.languageList {
+  display: flex;
+  align-items: center;
+
+  column-gap: 10px;
+}
+
+@media (max-width: 992px) {
+  .languageList {
+    column-gap: 6px;
+  }
+}

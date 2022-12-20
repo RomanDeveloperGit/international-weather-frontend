@@ -1,0 +1,53 @@
+.loader {
+  --size: 100px;
+  --border-out: 20px;
+  --border-in: calc(var(--border-out) / 5);
+
+  position: relative;
+
+  width: var(--size);
+  height: var(--size);
+
+  border: var(--border-out) solid var(--primary-color);
+  border-radius: 50%;
+
+  animation: border-animate 1s linear infinite alternate;
+}
+
+.loader::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: calc(var(--size) - var(--border-out) * 2 + 3px);
+  height: calc(var(--size) - var(--border-out) * 2 + 3px);
+
+  border: var(--border-in) solid var(--primary-color);
+  border-radius: 50%;
+
+  content: '';
+
+  transform: translate(-50%, -50%);
+}
+
+@keyframes border-animate {
+  0% {
+    border-color: transparent;
+  }
+
+  25% {
+    border-color: var(--primary-color) transparent transparent transparent;
+  }
+
+  50% {
+    border-color: var(--primary-color) var(--primary-color) transparent transparent;
+  }
+
+  75% {
+    border-color: var(--primary-color) var(--primary-color) var(--primary-color) transparent;
+  }
+
+  100% {
+    border-color: var(--primary-color);
+  }
+}

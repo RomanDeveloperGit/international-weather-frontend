@@ -1,0 +1,46 @@
+.dayWeatherDetails {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 28px;
+}
+
+.rowName {
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+.rowValue {
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .row {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .row {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dayWeatherDetails {
+    row-gap: 10px;
+  }
+
+  .row {
+    font-size: 14px;
+  }
+}

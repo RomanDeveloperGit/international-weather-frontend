@@ -1,0 +1,31 @@
+.item {
+  border-radius: 10px;
+
+  background-color: var(--item-color);
+  color: var(--primary-color);
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.item svg path {
+  fill: var(--primary-color);
+
+  transition: 0.5s;
+}
+
+.item:hover {
+  opacity: 0.6;
+}
+
+.item.itemActived {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+
+  opacity: 1;
+}
+
+.itemActived svg path {
+  fill: var(--secondary-color);
+}

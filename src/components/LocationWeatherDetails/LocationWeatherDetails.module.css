@@ -1,0 +1,58 @@
+.locationWeatherDetails {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-size: 30px;
+
+  row-gap: 10px;
+}
+
+.icon {
+  width: 3.16em;
+  height: 3.16em;
+}
+
+.temperature {
+  font-size: 1.66em;
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .locationWeatherDetails {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .locationWeatherDetails {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .locationWeatherDetails {
+    align-items: flex-end;
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  .locationWeatherDetails {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .locationWeatherDetails {
+    font-size: 14px;
+
+    row-gap: 4px;
+  }
+}

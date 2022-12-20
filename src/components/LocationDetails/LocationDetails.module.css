@@ -1,0 +1,82 @@
+.locationDetails {
+  position: relative;
+
+  display: flex;
+
+  width: 494px;
+  height: 666px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 48px 32px 84px;
+  border-radius: 35px;
+
+  background: url('../../assets/images/background.png') no-repeat center / cover;
+}
+
+.locationDetails::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 35px;
+
+  background: linear-gradient(152.19deg, rgb(136 235 239 / 90%) -0.04%, rgb(83 91 230 / 90%) 100%);
+
+  content: '';
+}
+
+@media (max-width: 1200px) {
+  .locationDetails {
+    width: 394px;
+    height: 566px;
+
+    padding-top: 38px;
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 992px) {
+  .locationDetails {
+    width: 344px;
+    height: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .locationDetails {
+    width: 100%;
+    max-width: 420px;
+    height: 240px;
+
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding-top: 28px;
+    padding-bottom: 44px;
+
+    border-radius: 25px 25px 0 0;
+  }
+
+  .locationDetails::before {
+    border-radius: 25px 25px 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .locationDetails {
+    height: 160px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .locationDetails {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}

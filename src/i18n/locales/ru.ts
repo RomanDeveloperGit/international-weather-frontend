@@ -1,0 +1,27 @@
+const RU = {
+  cloudiness: 'ОБЛАЧНОСТЬ',
+  humidity: 'ВЛАЖНОСТЬ',
+  wind: 'ВЕТЕР',
+  changeLocation: 'Изменить местоположение',
+  chooseNewLocation: 'Выберите новое местоположение',
+  selectLocation: 'Выбрать местоположение',
+  language: 'Язык',
+  thunderstorm: 'Гроза',
+  drizzle: 'Морось',
+  rain: 'Дождь',
+  snow: 'Снег',
+  atmosphere: 'Погодные явления',
+  clear: 'Ясно',
+  clouds: 'Облачно',
+  ru: 'Россия',
+  gb: 'Великобритания',
+  au: 'Австралия',
+  ie: 'Ирландия',
+  us: 'США',
+  fr: 'Франция',
+  ma: 'Марокко',
+  vn: 'Вьетнам',
+  pa: 'Панама',
+};
+
+export default RU;

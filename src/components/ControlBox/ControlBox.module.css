@@ -1,0 +1,65 @@
+.controlBox {
+  display: flex;
+  width: 520px;
+  height: 622px;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 55px 45px 62px 55px;
+  border-radius: 0 25px 25px 0;
+
+  background-color: var(--box-background);
+}
+
+.button {
+  margin-top: 10px;
+  column-gap: 4px;
+}
+
+.button svg {
+  width: 1.6875em;
+  height: 1.6875em;
+}
+
+@media (max-width: 1200px) {
+  .controlBox {
+    width: 420px;
+    height: 522px;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .controlBox {
+    width: 370px;
+    height: 420px;
+
+    padding: 35px 35px 42px 45px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .controlBox {
+    width: 100%;
+    max-width: 420px;
+    height: 320px;
+
+    padding: 30px 35px 27px;
+
+    border-radius: 0 0 25px 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  .controlBox {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}

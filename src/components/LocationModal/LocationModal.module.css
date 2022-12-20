@@ -1,0 +1,52 @@
+.modal {
+  max-width: 628px;
+
+  row-gap: 30px;
+}
+
+.button {
+  margin-top: 10px;
+  column-gap: 6px;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button svg {
+  width: 1.65em;
+  height: 1.65em;
+}
+
+@media (max-width: 1200px) {
+  .button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    row-gap: 20px;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .button {
+    font-size: 10px;
+  }
+}

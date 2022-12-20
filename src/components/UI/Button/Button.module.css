@@ -1,0 +1,24 @@
+.button {
+  width: 100%;
+
+  padding: 14px 0;
+  border-radius: 10px;
+
+  background: linear-gradient(90.8deg, rgb(144 217 224 / 90%) 0.2%, rgb(84 96 230 / 90%) 100%);
+  color: var(--primary-color);
+
+  font-weight: 600;
+
+  transition: 0.5s;
+}
+
+.button:hover,
+.button:disabled {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .button {
+    padding: 10px 0;
+  }
+}

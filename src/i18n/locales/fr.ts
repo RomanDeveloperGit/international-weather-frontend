@@ -1,0 +1,27 @@
+const FR = {
+  cloudiness: 'NÉBULOSITÉ',
+  humidity: 'HUMIDITÉ',
+  wind: 'VENT',
+  changeLocation: 'Changer de lieu',
+  chooseNewLocation: 'Choisir un nouvel emplacement',
+  selectLocation: 'Sélectionner un emplacement',
+  language: 'Langue',
+  thunderstorm: 'Orage',
+  drizzle: 'Bruine',
+  rain: 'Pluie',
+  snow: 'Neige',
+  atmosphere: 'Atmosphère',
+  clear: 'Clair',
+  clouds: 'Nuages',
+  ru: 'Russie',
+  gb: 'Grande-Bretagne',
+  au: 'Australie',
+  ie: 'Irlande',
+  us: 'AMÉRICAIN',
+  fr: 'France',
+  ma: 'Maroc',
+  vn: 'Vietnam',
+  pa: 'Panama',
+};
+
+export default FR;

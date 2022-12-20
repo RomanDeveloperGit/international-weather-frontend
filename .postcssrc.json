@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "postcss-preset-env",
+      {
+        "autoprefixer": {
+          "grid": "autoplace"
+        }
+      }
+    ],
+    [
+      "postcss-sort-media-queries",
+      {
+        "sort": "desktop-first"
+      }
+    ]
+  ]
+}

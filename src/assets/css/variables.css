@@ -1,0 +1,11 @@
+:root {
+  --default-color: #ffffff;
+  --default-background: #343d4b;
+  --primary-color: var(--default-color);
+  --secondary-color: #000000;
+  --error-color: #ff6868;
+  --item-color: #272e37;
+  --item-focus-color: rgb(45 53 63);
+  --overlay-color: rgb(0 0 0 / 60%);
+  --box-background: #222831;
+}

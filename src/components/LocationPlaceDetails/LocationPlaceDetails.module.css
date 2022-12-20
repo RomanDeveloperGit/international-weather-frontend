@@ -1,0 +1,64 @@
+.locationPlaceDetails {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-size: 20px;
+
+  /* row-gap: 20px; */
+  row-gap: 1em;
+}
+
+.day {
+  font-size: 1.8em;
+  font-weight: 700;
+
+  text-transform: capitalize;
+}
+
+.date {
+  font-size: 1.1;
+  font-weight: 500;
+}
+
+.locationBox {
+  display: flex;
+  align-items: center;
+
+  column-gap: 8px;
+}
+
+.icon {
+  width: 1.35em;
+  height: 1.35em;
+}
+
+.locationName {
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .locationPlaceDetails {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .locationPlaceDetails {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 776px) {
+  .locationPlaceDetails {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .locationPlaceDetails {
+    row-gap: 10px;
+  }
+}
