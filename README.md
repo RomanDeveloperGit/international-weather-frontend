@@ -25,7 +25,7 @@
 Для начала разберемся с бекендом:
 
    ```bash
-      https://github.com/RomanDeveloperGit/international-weather-backend.git
+       https://github.com/RomanDeveloperGit/international-weather-backend
    ```
 
 Далее клонируйте текущий репозиторий:
