@@ -1,6 +1,6 @@
 import { Dispatch } from 'react';
 
-import api from '../../api';
+import api from '../../http';
 
 import { LocationShortData } from '../../types';
 import { LocationListAction, LocationListActionType } from '../../types/locationList';
