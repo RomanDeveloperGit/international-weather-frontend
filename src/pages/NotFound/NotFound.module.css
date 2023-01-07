@@ -1,13 +1,14 @@
 .notFound {
-  display: flex;
   height: 100vh;
+
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background-color: var(--overlay-color);
-
   row-gap: 40px;
+
+  background-color: var(--overlay-color);
 }
 
 .text {

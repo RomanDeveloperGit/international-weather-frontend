@@ -6,11 +6,11 @@
 
 body {
   position: relative;
-  background-color: var(--default-background);
-
-  color: var(--default-color);
 
   font-family: Montserrat, sans-serif;
+  color: var(--default-color);
+
+  background-color: var(--default-background);
 }
 
 #root {

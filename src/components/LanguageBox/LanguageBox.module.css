@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
 
-  padding: 20px 40px;
-  border-radius: 25px;
+  column-gap: 20px;
 
   background-color: var(--box-background);
+  border-radius: 25px;
 
-  column-gap: 20px;
+  padding: 20px 40px;
 }
 
 .title {
@@ -24,8 +24,9 @@
 
 @media (max-width: 1200px) {
   .languageBox {
-    padding: 15px 30px;
     border-radius: 18px;
+
+    padding: 15px 30px;
   }
 
   .title {
@@ -35,10 +36,10 @@
 
 @media (max-width: 992px) {
   .languageBox {
-    padding: 12px 25px;
+    column-gap: 10px;
     border-radius: 16px;
 
-    column-gap: 10px;
+    padding: 12px 25px;
   }
 
   .title {
@@ -48,8 +49,9 @@
 
 @media (max-width: 360px) {
   .languageBox {
-    padding: 10px 22px;
     border-radius: 14px;
+
+    padding: 10px 22px;
   }
 
   .title {

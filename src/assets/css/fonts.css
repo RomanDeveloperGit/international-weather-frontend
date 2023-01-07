@@ -1,23 +1,23 @@
 @font-face {
+  src: local('Montserrat'), url('../fonts/Montserrat-Regular.ttf') format('ttf');
   font-family: Montserrat;
   font-weight: normal;
-  src: local('Montserrat'), url('../fonts/Montserrat-Regular.ttf') format('ttf');
 }
 
 @font-face {
+  src: local('Montserrat'), url('../fonts/Montserrat-Medium.ttf') format('ttf');
   font-family: Montserrat;
   font-weight: 500;
-  src: local('Montserrat'), url('../fonts/Montserrat-Medium.ttf') format('ttf');
 }
 
 @font-face {
+  src: local('Montserrat'), url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
   font-family: Montserrat;
   font-weight: 600;
-  src: local('Montserrat'), url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
 }
 
 @font-face {
+  src: local('Montserrat'), url('../fonts/Montserrat-Bold.ttf') format('ttf');
   font-family: Montserrat;
   font-weight: 700;
-  src: local('Montserrat'), url('../fonts/Montserrat-Bold.ttf') format('ttf');
 }

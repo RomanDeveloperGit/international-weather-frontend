@@ -1,13 +1,13 @@
 .button {
   width: 100%;
 
-  padding: 14px 0;
-  border-radius: 10px;
-
-  background: linear-gradient(90.8deg, rgb(144 217 224 / 90%) 0.2%, rgb(84 96 230 / 90%) 100%);
+  font-weight: 600;
   color: var(--primary-color);
 
-  font-weight: 600;
+  background: linear-gradient(90.8deg, rgba(144, 217, 224, 90%) 0.2%, rgba(84, 96, 230, 90%) 100%);
+  border-radius: 10px;
+
+  padding: 14px 0;
 
   transition: 0.5s;
 }

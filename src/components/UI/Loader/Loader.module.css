@@ -19,13 +19,13 @@
   top: 50%;
   left: 50%;
 
+  content: '';
+
   width: calc(var(--size) - var(--border-out) * 2 + 3px);
   height: calc(var(--size) - var(--border-out) * 2 + 3px);
 
   border: var(--border-in) solid var(--primary-color);
   border-radius: 50%;
-
-  content: '';
 
   transform: translate(-50%, -50%);
 }

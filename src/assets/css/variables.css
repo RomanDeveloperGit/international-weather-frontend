@@ -5,7 +5,7 @@
   --secondary-color: #000000;
   --error-color: #ff6868;
   --item-color: #272e37;
-  --item-focus-color: rgb(45 53 63);
-  --overlay-color: rgb(0 0 0 / 60%);
+  --item-focus-color: rgb(45, 53, 63);
+  --overlay-color: rgba(0, 0, 0, 60%);
   --box-background: #222831;
 }

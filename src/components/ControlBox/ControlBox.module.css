@@ -1,19 +1,21 @@
 .controlBox {
-  display: flex;
   width: 520px;
   height: 622px;
+
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  padding: 55px 45px 62px 55px;
+  background-color: var(--box-background);
   border-radius: 0 25px 25px 0;
 
-  background-color: var(--box-background);
+  padding: 55px 45px 62px 55px;
 }
 
 .button {
-  margin-top: 10px;
   column-gap: 4px;
+
+  margin-top: 10px;
 }
 
 .button svg {
@@ -51,9 +53,9 @@
     max-width: 420px;
     height: 320px;
 
-    padding: 30px 35px 27px;
-
     border-radius: 0 0 25px 25px;
+
+    padding: 30px 35px 27px;
   }
 }
 

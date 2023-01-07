@@ -1,9 +1,9 @@
 .overlay {
   position: absolute;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
 
   background-color: var(--overlay-color);
 }
@@ -13,16 +13,17 @@
   top: 50%;
   left: 50%;
 
-  display: grid;
   width: 100%;
 
-  padding: 30px 30px 40px;
-  border-radius: 25px;
-
-  background-color: var(--box-background);
+  display: grid;
   row-gap: 30px;
 
+  background-color: var(--box-background);
+  border-radius: 25px;
+
   transform: translate(-50%, -50%);
+
+  padding: 30px 30px 40px;
 }
 
 .top {

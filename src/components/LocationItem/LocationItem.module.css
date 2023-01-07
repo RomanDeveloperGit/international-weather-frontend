@@ -1,6 +1,7 @@
 .item {
-  padding: 12px 22px;
   font-weight: 500;
+
+  padding: 12px 22px;
 }
 
 @media (max-width: 1200px) {

@@ -1,11 +1,12 @@
 .main {
-  display: grid;
   min-height: 100vh;
 
-  padding: 20px;
+  display: grid;
   grid-template-rows: min-content auto;
 
   row-gap: 40px;
+
+  padding: 20px;
 }
 
 .main > div:first-child {
